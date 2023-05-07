@@ -1,13 +1,23 @@
 
 <br />
-  <a href="https://github.com/othneildrew/Best-README-Template">
-  <h1 align="center">Rick And Morty Jetpack Compose Sample App</h1>
-  
+
   [![License](https://badgen.net/badge/License/Apache/blue/)](https://opensource.org/licenses/Apache-2.0)
   ![MinAPI](https://badgen.net/badge/MinAPI/23/green/)
   [![Compose](https://img.shields.io/badge/compose-1.1.0-red.svg?)](https://developer.android.com/jetpack/compose)
   [![Kotlin](https://img.shields.io/badge/Kotlin-1.6.10-blue.svg?logo=kotlin)](http://kotlinlang.org)
   [![Gradle](https://img.shields.io/badge/gradle-7.2-blue.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+
+
+ 
+ ## Reference Projects : 
+ 
+ 
+ * [Base Project](https://github.com/merttoptas/BaseApp-Jetpack-Compose-Android-Kotlin/tree/master)
+ * [Reference Project -1 ](https://github.com/aregpetrosyan/Jetpack-Compose-Boilerplate/)
+ * [Reference Project -2](https://github.com/skydoves/DisneyCompose/) with [Midium](https://proandroiddev.com/exploring-jetpack-compose-with-dagger-hilt-and-viewmodels-3e0ca939daa7)
+ * [Reference Project -3](https://github.com/mutualmobile/Praxis)
+ 
+  
 
   
 <p align="center">
@@ -88,33 +98,12 @@ This project uses many of the popular libraries, plugins and tools of the androi
   - The users can search characters by name and filter by status and gender.
   - The users can change application theme.
   
-## 🏆 MAD Scores
-
-<img src="docs/summary.png"/>
-<img src="docs/kotlin.png"/>
-<img src="docs/jetpack.png"/>
-  
-
-## 👩‍💻 Contribution
-
-All contributions are welcomed. Feel free to open PR. If you've found an error in this sample, please file an issue:</br>
-<https://github.com/mertcantoptas/BaseApp-Jetpack-Compose-Android-Kotlin/issues>
-</br>
-PRs are encouraged.
-  
 
 ## Environment Setup
   - First, make sure you have Android ```Bumblebee (2021.1.1)```  version installed
   - Android Studio's Gradle JDK version should be Java 11.0.10.
   
-    
-<!-- CONTACT -->
-## Contact
-
-- [Linkedin](https://www.linkedin.com/in/mertcantoptas/)
-- [Twitter](https://twitter.com/Merttoptas)
-- [Medium](https://medium.com/@merttoptas34)
-- [Personal Web Site](https://merttoptas.com)
+ 
 
 ```xml
 Designed and developed by merttoptas (Mert Toptas)
