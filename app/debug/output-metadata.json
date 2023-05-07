@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.merttoptas.composebase",
+  "applicationId": "com.vdms.composebase",
   "variantName": "debug",
   "elements": [
     {
