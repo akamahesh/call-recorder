@@ -19,6 +19,7 @@ import com.vdms.composebase.BuildConfig
 import com.vdms.composebase.features.component.RickAndMortyScaffold
 import com.vdms.composebase.features.component.RickAndMortyText
 import com.vdms.composebase.features.component.RickAndMortyTopBar
+import com.vdms.composebase.R
 
 /**
  * Created by merttoptas on 22.03.2022

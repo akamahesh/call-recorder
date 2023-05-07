@@ -24,6 +24,7 @@ import com.vdms.composebase.features.component.RickAndMortyScaffold
 import com.vdms.composebase.features.component.RickAndMortyTopBar
 import com.vdms.composebase.utils.Utility.rememberFlowWithLifecycle
 import kotlinx.coroutines.flow.Flow
+import com.vdms.composebase.R
 
 /**
  * Created by merttoptas on 13.03.2022

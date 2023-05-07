@@ -17,6 +17,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.vdms.composebase.features.component.*
 import com.vdms.composebase.data.model.EpisodesResultResponse
 import kotlinx.coroutines.launch
+import com.vdms.composebase.R
 
 /**
  * Created by merttoptas on 19.03.2022

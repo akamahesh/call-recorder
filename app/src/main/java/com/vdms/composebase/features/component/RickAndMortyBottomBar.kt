@@ -24,6 +24,7 @@ import com.vdms.composebase.features.screen.episodes.navigation.navigateToEpisod
 import com.vdms.composebase.features.screen.favorites.navigation.navigateToFavorites
 import com.vdms.composebase.features.screen.search.navigation.navigateToSearch
 import com.vdms.composebase.features.screen.settings.navigation.navigateToSettings
+import com.vdms.composebase.R
 
 /**
  * Created by merttoptas on 12.03.2022

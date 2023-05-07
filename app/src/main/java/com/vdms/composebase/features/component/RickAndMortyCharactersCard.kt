@@ -15,6 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.vdms.composebase.data.model.Status
 import com.vdms.composebase.data.model.dto.CharacterDto
+import com.vdms.composebase.R
 
 /**
  * Created by merttoptas on 13.03.2022
