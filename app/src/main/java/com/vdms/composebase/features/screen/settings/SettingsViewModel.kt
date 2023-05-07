@@ -1,7 +1,7 @@
 package com.vdms.composebase.features.screen.settings
 
 import androidx.lifecycle.viewModelScope
-import com.vdms.composebase.RickAndMortyApp
+import com.vdms.composebase.CallRecordingVDMSApp
 import com.vdms.composebase.domain.viewstate.IViewEvent
 import com.vdms.composebase.domain.viewstate.settings.SettingsViewState
 import com.vdms.composebase.features.base.BaseViewModel
@@ -15,7 +15,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
-    private val application: RickAndMortyApp
+    private val application: CallRecordingVDMSApp
 ) : BaseViewModel<SettingsViewState, SettingsViewEvent>() {
 
     init {

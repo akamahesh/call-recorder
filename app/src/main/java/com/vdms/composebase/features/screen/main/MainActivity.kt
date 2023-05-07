@@ -9,7 +9,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.vdms.composebase.RickAndMortyApp
+import com.vdms.composebase.CallRecordingVDMSApp
 import com.vdms.composebase.features.navigation.NavGraph
 import com.vdms.composebase.features.ui.theme.ComposeBaseTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -19,7 +19,7 @@ import javax.inject.Inject
 class MainActivity : ComponentActivity() {
 
     @Inject
-    lateinit var application: RickAndMortyApp
+    lateinit var application: CallRecordingVDMSApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

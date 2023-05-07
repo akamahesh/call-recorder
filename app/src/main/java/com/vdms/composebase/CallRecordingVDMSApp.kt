@@ -11,7 +11,7 @@ import dagger.hilt.android.HiltAndroidApp
 
 @Stable
 @HiltAndroidApp
-class RickAndMortyApp : Application() {
+class CallRecordingVDMSApp : Application() {
 
     val isDark = mutableStateOf(false)
 
