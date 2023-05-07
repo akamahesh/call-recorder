@@ -12,14 +12,19 @@ import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.vdms.composebase.features.component.RickAndMortyBottomAppBar
 import com.vdms.composebase.features.component.RickAndMortyFloatingActionBar
 import com.vdms.composebase.features.component.RickAndMortyScaffold
+import com.vdms.composebase.features.screen.main.navigation.mainNavigationRoute
+import com.vdms.composebase.features.screen.main.navigation.mainScreen
+import com.vdms.composebase.features.screen.login.navigation.loginScreen
 import com.vdms.composebase.features.screen.characters.navigation.charactersNavigationRoute
 import com.vdms.composebase.features.screen.characters.navigation.charactersScreen
 import com.vdms.composebase.features.screen.charactersdetail.navigation.charactersDetailScreen
 import com.vdms.composebase.features.screen.charactersdetail.navigation.navigateCharactersDetail
 import com.vdms.composebase.features.screen.episodes.navigation.episodesScreen
 import com.vdms.composebase.features.screen.favorites.navigation.favoritesScreen
+import com.vdms.composebase.features.screen.login.navigation.navigateToLogin
 import com.vdms.composebase.features.screen.search.navigation.searchScreen
 import com.vdms.composebase.features.screen.settings.navigation.settingsScreen
+import com.vdms.composebase.features.screen.settings.navigation.navigateToSettings
 import com.vdms.composebase.utils.Utility.toJson
 
 /**
@@ -36,32 +41,15 @@ fun NavGraph() {
         .currentBackStackEntryAsState().value?.destination
 
     RickAndMortyScaffold(
-        bottomBar = {
-            BottomNav.values().forEach { navItem ->
-                if (navItem.route == currentRoute) {
-                    RickAndMortyBottomAppBar(
-                        navController = navController,
-                        currentDestination = currentDestination
-                    )
-                }
-            }
-        },
-        floatingActionButton = {
-            BottomNav.values().forEach { navItem ->
-                if (navItem.route == currentRoute) {
-                    RickAndMortyFloatingActionBar(
-                        navController = navController,
-                    )
-                }
-            }
-        },
         backgroundColor = MaterialTheme.colors.background,
     ) { innerPadding ->
         AnimatedNavHost(
             navController = navController,
-            startDestination = charactersNavigationRoute,
+            startDestination = mainNavigationRoute,
             Modifier.padding(innerPadding)
         ) {
+            mainScreen({navController.navigateToLogin(null)},{navController.navigateToSettings(null)} )
+            loginScreen()
             charactersScreen { navController.navigateCharactersDetail(it.toJson()) }
             charactersDetailScreen { navController.navigateUp() }
             episodesScreen()

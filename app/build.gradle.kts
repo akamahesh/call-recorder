@@ -66,6 +66,7 @@ dependencies {
 
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.compose.ui.utils)
     implementation(libs.androidx.compose.material)
     implementation(libs.androidx.compose.ui.tooling.preview)
     debugImplementation(libs.androidx.compose.ui.tooling)
@@ -136,6 +137,12 @@ dependencies {
 
     implementation(libs.androidx.tracing.tracing)
     implementation(libs.androidx.tracing.ktx)
+    implementation(libs.androidx.ui.framework)
+    implementation(libs.androidx.ui.layout)
+    implementation(libs.androidx.ui.material)
+    implementation(libs.androidx.ui.tooling)
+    implementation(libs.androidx.ui.foundation)
+    implementation(libs.androidx.ui.platform)
 
     // UI Tests
     androidTestImplementation(libs.androidx.compose.ui.test)
@@ -144,6 +151,8 @@ dependencies {
     testImplementation(libs.junit4)
     androidTestImplementation(libs.androidx.test.ext)
     androidTestImplementation(libs.androidx.test.espresso.core)
+
+
 }
 
 // Allow references to generated code
